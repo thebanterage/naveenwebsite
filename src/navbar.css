@@ -1,0 +1,41 @@
+.navbar{
+ position: fixed;
+ text-align: left;
+ top: 0;
+ left: 0;
+ margin-bottom: 5%;
+    width: 100%;
+    background: purple;
+    padding: 1;
+}
+.navbarnav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+.navbarlogo{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem
+}
+.spacing{
+    flex: 1;
+}
+.navitems ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navitems li{
+    padding: 0 .5rem;
+}
+.navitems a{
+    color: white;
+    text-decoration: none;
+}
+.navitems a:hover,
+.navitems a:active{
+    color: pink;
+}
