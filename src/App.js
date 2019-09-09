@@ -344,7 +344,7 @@ Achieved to high Merit/Excellence in Calculus.</li>
             <div class="overlay-effect"></div>
                 <ul id='overlay'>
                     <li className="linkedin"><a href="https://www.linkedin.com/in/naveenbandarage/" target = "_blank"><img className="linkedin"src={LinkedIn} width="32" height="32" ></img></a></li>
-                    <li className="twitter"><a href="https://reactjs.org/" target = "_blank"><img className="twitter"src={Twitter} width="32" height="32" ></img></a></li>
+                    <li className="twitter"><a href="https://twitter.com/naveenbandarage" target = "_blank"><img className="twitter"src={Twitter} width="32" height="32" ></img></a></li>
                     <li className="github"><a href="https://github.com/thebanterage/" target = "_blank"><img className="github"src={GitHub} width="32" height="32" ></img></a></li>
                     <li className="instagram"><a href="https://www.instagram.com/naveenbandarage/" target = "_blank"><img className="instagram"src={Instagram} width="32" height="32" ></img></a></li>
                     <li className="spotify"><a href="https://open.spotify.com/user/naveen.bandarage?si=vg_7-oZxR52MbBvCdKdFRg" target = "_blank"><img className="github"src={Spotify} width="32" height="32" ></img></a></li>
