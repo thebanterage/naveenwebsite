@@ -6,7 +6,7 @@
  margin-bottom: 5%;
     width: 100%;
     background: purple;
-    padding: 1;
+    padding: 10px;
 }
 .navbarnav{
     display: flex;
@@ -16,8 +16,19 @@
 }
 .navbarlogo{
     color: white;
+    font-family: 'Homemade Apple', cursive;
     text-decoration: none;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.navbarlogo a{
+
+    color: white;
+    text-decoration: none;
+}
+.navbarlogo a:hover,
+.navbarlogo a:active{
+    color: #c34271;
 }
 .spacing{
     flex: 1;
@@ -37,5 +48,5 @@
 }
 .navitems a:hover,
 .navitems a:active{
-    color: pink;
+    color:  #c34271;
 }

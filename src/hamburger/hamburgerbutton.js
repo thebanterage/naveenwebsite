@@ -1,7 +1,7 @@
 import React from 'react'
 import './hamburger.css'
 const toggleButton = props => (
-    <button>
+    <button className ='toggleButton'>
         <div className = "togglebuttonline"></div>
         <div className = "togglebuttonline"></div>
         <div className = "togglebuttonline"></div>
