@@ -269,7 +269,7 @@ Sports</h3>
                 <p>Javascript/React</p>
                 <Box className="box" pose={isVisible ? 'visible' : 'hidden'} />
                 <p>Film Photography</p>
-                <p className = "filmCamera">These aren't the best but I am working on my film photography skills. These were taken on an <a href="insert link for camera ">Olympus OM101 35mm Film Camera</a></p>
+                <p className = "filmCamera">These aren't the best but I am working on my film photography skills. These were taken on an Olympus OM101 35mm Film Camera</p>
                  <div className="photosrow">
                      <div className="photoscol">
                      <a href="https://www.linkedin.com/in/naveenbandarage/" target = "_blank"><img className="linkedin"src={image1}width="400"height="300"></img></a>
