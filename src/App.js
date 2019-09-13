@@ -29,7 +29,7 @@ import Gym from './dumbbell.png'
 import Person from './employee.png'
 import Rapper from './rapper.png'
 import Anime from './studio-ghibli.png'
-
+import SOT from './sot.png'
 
 
 
@@ -219,12 +219,15 @@ Click </SplitText></a></b>or scroll to navigate.</p>
                 <li>Javascript</li>
                 <li>React</li>
               </ul>
+              
                 <h2>Education</h2>
                  <p>Victoria University of Wellington - Bachelor of Engineering with Honours</p>
                  <p>March 2017 - Present</p>
                  <p>Heretaunga College - Graduated as Proxime Accessite with NCEA Levels 1,2, and 3 excellence endorsed (99, 90, 72 credits respectively) </p>
                  <p>February 2013 - December 2017</p>
-                 <h1>Want more information?</h1>
+                 <h1>Want more information?</h1>         
+                    
+
                  <p className="resumelink">I have attached my resume right <b><a href={Pdf} target = "_blank">here</a></b>.</p>
                 </div>   
                 </ParallaxLayer>
@@ -257,6 +260,9 @@ Sports</h3>
                     <p>I am a big sports enthusiast. I love to debate and watch a wide variety of sports Football, Basketball, American Football you name it I’m probably into it. I’m quite active in my free time as well and I consider myself a bit of a gym nut. But I do enjoy a good run as well.</p>
                     </div>
                     </div>
+                    {/* <p className="SOTText">Summer of Tech Qr Code:</p>
+                 <img className="sot"src={SOT} width="100"height="100" ></img> */}
+
                 </div>
                         </ParallaxLayer>
       <ParallaxLayer

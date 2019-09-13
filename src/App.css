@@ -63,6 +63,8 @@ body {overflow-x: hidden;}
 }
 
 .AboutMeSection{
+  height:100vh;
+  width:100vw;
   background-color: #65ccB8;
 
   padding-top: 10%;
@@ -97,6 +99,10 @@ body {overflow-x: hidden;}
   text-align: left;
     margin-left:  20%;
 }
+.interests{
+  height:100vh;
+  width:100vw;
+}
 .interests h1{
   color: #f2f2f2;
 
@@ -117,6 +123,11 @@ body {overflow-x: hidden;}
   text-align: left;
   margin-left: 20%;
 }
+#projects{
+  height:100vh;
+
+  width:100vw;
+}
 #projects h1{
   color: #f2f2f2;
 
@@ -128,6 +139,11 @@ body {overflow-x: hidden;}
 #projects h2{
   color: #f2f2f2;
 
+}
+.WhereIworked{
+  height:100vh;
+
+  width:100vw;
 }
 .WhereIworked h1{
   color: #f2f2f2;
@@ -142,6 +158,11 @@ body {overflow-x: hidden;}
 
 .WhereIworked li{
   color: #182628
+}
+.containerP{
+  height:100vh;
+
+  width:100vw;
 }
 .containerP h1{
   color: #f2f2f2;
@@ -462,3 +483,10 @@ text-align: left;
 }
   
   
+/* .sot{
+  float: right;
+}
+.SOTText{
+  padding
+  text-align: right;
+} */
