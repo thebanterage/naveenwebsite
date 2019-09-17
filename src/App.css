@@ -68,6 +68,7 @@ body {overflow-x: hidden;}
   background-color: #65ccB8;
 
   padding-top: 10%;
+  padding-bottom: 10%
 }
 #AboutMeSection p{
   color: #182628
@@ -396,7 +397,6 @@ color: #182628
 .photoscol img {
     margin : auto;
   margin-top: 8px;
-  width: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -404,6 +404,9 @@ color: #182628
   .photoscol {
     flex: 50%;
     max-width: 50%;
+    overflow: hidden;
+
+
   }
 }
 
@@ -412,6 +415,11 @@ color: #182628
   .photoscol {
     flex: 100%;
     max-width: 100%;
+    overflow: hidden;
+
+  }
+  .photosrow{
+    padding-bottom: 20%;
   }
 }
 #AboutMeSection{
@@ -481,8 +489,14 @@ text-align: left;
     margin-bottom: 0.2em;
   
 }
-  
-  
+@media screen and (max-width: 800px) {
+.intro, #AboutMeSection, .interests, .WhereIworked{
+  width: 100vw;
+  height: 100vh;
+}
+}
+.resumelink{
+}
 /* .sot{
   float: right;
 }

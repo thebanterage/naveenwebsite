@@ -30,7 +30,9 @@ import Person from './employee.png'
 import Rapper from './rapper.png'
 import Anime from './studio-ghibli.png'
 import SOT from './sot.png'
-
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 
 //import { TabsContainer } from '@zendeskgarden/react-tabs'
@@ -170,14 +172,15 @@ class App extends Component {
             backgroundPosition: 'center',
           }}
         />
-
+<Container>
         <ParallaxLayer
           offset={0}
           speed={0.1}
           onClick={() => this.parallax.scrollTo(1)}
           style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         {/* <Navbar/> */}
-
+        <Row>
+    <Col>
 <div className='intro'>
                 <Bounce><p className='Hi'>Hi, my name is</p>
 </Bounce>
@@ -195,13 +198,17 @@ Naveen Bandarage</SplitText>
 Click </SplitText></a></b>or scroll to navigate.</p>
        
                 </div>
+                </Col>
+  </Row>
                         </ParallaxLayer>
+                    
+                        </Container>
+                        <Container>
 
         <ParallaxLayer
           offset={1}
           speed={0.1}
           onClick={() => this.parallax.scrollTo(2)}>
-
 
 <div id="AboutMeSection">
                 <h1 id="aboutme">About me</h1>
@@ -226,11 +233,10 @@ Click </SplitText></a></b>or scroll to navigate.</p>
                  <p>Heretaunga College - Graduated as Proxime Accessite with NCEA Levels 1,2, and 3 excellence endorsed (99, 90, 72 credits respectively) </p>
                  <p>February 2013 - December 2017</p>
                  <h1>Want more information?</h1>         
-                    
-
                  <p className="resumelink">I have attached my resume right <b><a href={Pdf} target = "_blank">here</a></b>.</p>
                 </div>   
                 </ParallaxLayer>
+                </Container>
                 <ParallaxLayer
           offset={2}
           speed={-0}
@@ -310,13 +316,20 @@ Sports</h3>
     </TabList>
  
     <TabPanel>
-    <h3>Education Consultant @ Inspiration Education</h3>
+    <h3>Education Consultant @ Inspiration Education</h3> 
+     {/* Need to make the description of my job better */}
     <p>August 2019 - Present </p>
-    <p>In this role I have the following things:</p>
+    <p>In this role I have done the following things:</p>
+    <p>As an Education Consultant what I have had to do is work in an 1 on 1 environement with high school students on developing them not only for their chosen subjects but as learners. As each childs needs were unique, my approach for working with them was indivisualised and focused on meeting their needs. I have been able to work with a diverse group of students, with their abilities ranging from those who need help understanding basic concepts to those looking to push themselves into higher realms of education.</p>
+    <p>Achievements:</p>
     <li>Succesfuly being able to help high school students in a 1 on 1 setting. An
 example was helping one student in a short period of time go from Not
 Achieved to high Merit/Excellence in Calculus.</li>
-    <li>Being able to communicate and explain to parents the performance of their child </li>
+<li>Being able to work with 8 different students in the same period of time and not once get their names mixed up.</li>
+<p>Skills</p>
+    <li>Being able to communicate and explain to parents the performance of their child.</li>
+    <li>Being well versed in a variety of subjects.</li>
+    <li>Going beyond the scope of my job and working after hours to ensure each student got the highest level of education they deserved.</li>
 
     </TabPanel>
     <TabPanel>
