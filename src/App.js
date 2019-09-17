@@ -319,8 +319,7 @@ Sports</h3>
     <h3>Education Consultant @ Inspiration Education</h3> 
      {/* Need to make the description of my job better */}
     <p>August 2019 - Present </p>
-    <p>In this role I have done the following things:</p>
-    <p>As an Education Consultant what I have had to do is work in an 1 on 1 environement with high school students on developing them not only for their chosen subjects but as learners. As each childs needs were unique, my approach for working with them was indivisualised and focused on meeting their needs. I have been able to work with a diverse group of students, with their abilities ranging from those who need help understanding basic concepts to those looking to push themselves into higher realms of education.</p>
+    <p>As an Education Consultant what I have had to do is work in an 1 on 1 environment with high school students.  In that environment, I was tasked with working on their chosen subjects and being able to help them effectively not only for their subjects but as learners. As each childs needs were unique, my approach for working with them was individualised and focused on meeting their needs. I have been able to work with a diverse group of students, with their abilities ranging from those who need help understanding basic concepts to those looking to push themselves into higher realms of education.</p>
     <p>Achievements:</p>
     <li>Succesfuly being able to help high school students in a 1 on 1 setting. An
 example was helping one student in a short period of time go from Not
@@ -335,10 +334,20 @@ Achieved to high Merit/Excellence in Calculus.</li>
     <TabPanel>
     <h3>Checkout Supervisor and Grocery Assistant @ <b><a href="https://www.newworld.co.nz/lower-north-island/wellington/silverstream" target = "_blank">New World Silverstream</a></b></h3>
       <p>October 2016 - August 2019</p>
-    <p>In this role I had to do the following things:</p>
+     <p> In this role, I had a lot of responsibility in dealing with both customers as well as dealing with staff. While at the same time being able to manage a significant workload, handle money safely and securely and in general work under pressure.
+</p>
+    <p>Skills:</p>
     <li>Supervising and managing staff effectively and efficiently.</li>
     <li>Using communication skills to resolve conflicts when they arise and overall working towards a happy and stable team environment.</li>
     <li>Being able to work under pressure and maintain a high level of attention to detail.</li>
+    - Supervisor with the responsibility of approving restricted items
+<li>Decision making </li>
+<li>Lotto trained</li>
+<li>Customer service skills (dealing with complaints etc)</li>
+<li>Inventory/Stock handling</li>
+<li>Time management</li>
+<li>Excellent Communication Skills</li>
+<li>Money Handling</li>
     </TabPanel>
   </Tabs> 
             
