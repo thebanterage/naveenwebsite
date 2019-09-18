@@ -1,0 +1,44 @@
+#aboutme{
+    text-align: left;
+    margin-left:  20%;
+  
+  }
+  
+  .AboutMeSection{
+    height:100vh;
+    width:100vw;
+    background-color: #65ccB8;
+  
+    padding-top: 10%;
+    padding-bottom: 10%
+  }
+  #AboutMeSection p{
+    color: #182628
+  
+  }
+  #AboutMeSection p{
+      text-align: left;
+      margin-left:  20%;
+    
+  }
+  #AboutMeSection h1{
+    color: #f2f2f2;
+  
+    text-align: left;
+    margin-left:  19.9%;
+  }
+  #AboutMeSection h2{
+    text-align: left;
+      margin-left:  20%;
+  }
+  #AboutMeSection h2{
+    text-align: left;
+      margin-left:  20%;
+      color: #f2f2f2;
+  
+  }
+  #AboutMeSection h4{
+    color: #f2f2f2;
+    text-align: left;
+      margin-left:  20%;
+  }

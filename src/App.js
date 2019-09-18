@@ -8,7 +8,6 @@ import { pink } from '@material-ui/core/colors';
 import sideBar from './hamburger/sidebar'
 import posed from 'react-pose';
 import SplitText from 'react-pose-text';
-import reactLogo from './logo.svg'
 import GitHub from './github.png'
 import Twitter from './twitter.png'
 import Spotify from './spotify.png'
@@ -16,7 +15,6 @@ import Instagram from './instagramicon.png'
 import LinkedIn from './linkedin-logo.png'
 import image1 from './image1.JPG'
 import image2 from './image2.JPG'
-import image3 from './image3.JPG'
 import image4 from './image4.JPG'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
@@ -26,13 +24,12 @@ import NavBar from './navbar';
 import Pdf from './naveencv_compressed.pdf'
 import Chess from './chess.png'
 import Gym from './dumbbell.png'
-import Person from './employee.png'
 import Rapper from './rapper.png'
 import Anime from './studio-ghibli.png'
-import SOT from './sot.png'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import aboutMe from './components/aboutme';
 
 
 //import { TabsContainer } from '@zendeskgarden/react-tabs'
@@ -138,22 +135,6 @@ class App extends Component {
 
         </ParallaxLayer>
 
-
-        <ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.1 }}>
-
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={1.75} speed={0.5} style={{ opacity: 0.1 }}>
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={1} speed={0.2} style={{ opacity: 0.2 }}>
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={1.6} speed={-0.1} style={{ opacity: 0.4 }}>
-          
-        </ParallaxLayer>
-
-
         <ParallaxLayer offset={2.2} speed={-0.1} style={{ opacity: 0.2 }}>
         <div className="flaticon">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"title="Flaticon">www.flaticon.com</a></div>
         </ParallaxLayer>
@@ -235,6 +216,7 @@ Click </SplitText></a></b>or scroll to navigate.</p>
                  <h1>Want more information?</h1>         
                  <p className="resumelink">I have attached my resume right <b><a href={Pdf} target = "_blank">here</a></b>.</p>
                 </div>   
+              {/* <aboutMe/>  need to work on implementing these*/}
                 </ParallaxLayer>
                 </Container>
                 <ParallaxLayer

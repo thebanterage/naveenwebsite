@@ -1,6 +1,4 @@
 import React from 'react'
-import navbar from './navbar.css'
-import HamburgerToggle from './hamburger/hamburgerbutton.js'
 import Pdf from './naveencv_compressed.pdf'
 import SplitText from 'react-pose-text';
 const wordPoses = {
